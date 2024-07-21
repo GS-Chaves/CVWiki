@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="CVWiki_Front-End/src/assets/CVPedia_Logo.jpg" alt="Logo CVWiki" width="150" />
+</p>
+
 # CVWiki
 
 CVWiki é um sistema de armazenamento de currículos que permite a criação, atualização e visualização de currículos de forma eficiente. O sistema é composto por um front-end desenvolvido em React e um back-end utilizando Spring Boot. Para a estilização do front-end, foi utilizado o Bootstrap.
