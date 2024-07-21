@@ -38,7 +38,7 @@ cd CVWiki
 ```
 
 ### Configuração do Front-end
-1. Navegue até o diretório '**frontend**':
+1. Navegue até o diretório "**frontend**":
 
     ```
     cd CVWiki_Front-End
@@ -61,13 +61,19 @@ cd CVWiki
     ```
 
 ### Configuração do Back-end
-1. Navegue até o diretório '**backend**':
+1. Navegue até o diretório "**backend**":
 
     ```
     cd ../CVWiki_Back-End
     ```
 
-2. Compile e inicie a aplicação Spring Boot:
+2. Configure o banco de dados PostgreSQL:
+
+    - Certifique-se de que o PostgreSQL está instalado e em execução.
+    - Crie um banco de dados para a aplicação.
+    - Configure as credenciais e URL do banco de dados no arquivo "**application.properties**" ou "**application.yml**" do Spring Boot.
+
+3. Compile e inicie a aplicação Spring Boot:
     ```
     mvn spring-boot:run
     ```
@@ -76,7 +82,7 @@ cd CVWiki
 
 1. Faça um fork do projeto.
 2. Crie uma nova branch com a sua feature ou correção: git checkout -b minha-feature.
-3. Faça commit das suas alterações: git commit -m 'Minha nova feature'.
+3. Faça commit das suas alterações: git commit -m "Minha nova feature".
 4. Faça push para a branch: git push origin minha-feature.
 5. Abra um Pull Request.
 
