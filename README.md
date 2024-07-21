@@ -85,5 +85,3 @@ Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato:
 - Nome: Guilherme Chaves
 - Email: guilherme.chaves66@gmail.com
 - LinkedIn: [Guilherme Chaves](https://www.linkedin.com/in/guilherme-chaves-b2a691225/)
-
-<a href="https://www.linkedin.com/in/guilherme-chaves-b2a691225/" target="blank">Guilherme Chaves</a>
