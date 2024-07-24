@@ -14,7 +14,7 @@
 ### Back-end
 - **Spring Boot**: Framework Java para criação de aplicações web robustas e escaláveis.
 
-### Funcionalidades
+## Funcionalidades
 - **Cadastro de Currículos**: Permite aos usuários cadastrar seus currículos com informações detalhadas.
 - **Edição de Currículos**: Permite a atualização de currículos existentes.
 - **Visualização de Currículos**: Exibe currículos cadastrados de forma organizada.
