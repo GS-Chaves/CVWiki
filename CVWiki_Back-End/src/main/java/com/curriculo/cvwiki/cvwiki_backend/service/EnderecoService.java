@@ -19,5 +19,23 @@ public class EnderecoService {
         return enderecos.stream().map(EnderecoDTO::new).toList();
     }
 
-    //Continue...
+    public void SalvarEndereco(EnderecoDTO enderecoDTO){
+        EnderecoEntity endereco = new EnderecoEntity(enderecoDTO);
+        enderecoRepository.save(endereco);
+    }
+
+    public EnderecoDTO AtualizarEndereco(EnderecoDTO enderecoDTO){
+        EnderecoEntity endereco = new EnderecoEntity(enderecoDTO);
+        return new EnderecoDTO(enderecoRepository.save(endereco));
+    }
+
+    public void ExcluirEndereco(Long id){
+        EnderecoEntity endereco = enderecoRepository.findById(id).get();
+        enderecoRepository.delete(endereco);
+    }
+
+    public EnderecoDTO ConsultarEnderecoPorId(Long id){
+        EnderecoEntity endereco = enderecoRepository.findById(id).get();
+        return new EnderecoDTO(endereco);
+    }
 }
