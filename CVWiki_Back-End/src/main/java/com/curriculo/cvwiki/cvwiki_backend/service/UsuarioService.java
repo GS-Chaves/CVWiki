@@ -34,6 +34,11 @@ public class UsuarioService {
         usuarioRepository.delete(usuario);
     }
 
+    public List<UsuarioDTO> buscarPorNome(String nome){
+        List<UsuarioEntity> usuarios = usuarioRepository.findByNome(nome);
+        return usuarios.stream().map(UsuarioDTO::new).toList();
+    }
+
     public UsuarioDTO FindUsuarioPorId(Long id){
         UsuarioEntity usuario = usuarioRepository.findById(id).get();
         return new UsuarioDTO(usuario);

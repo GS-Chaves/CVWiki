@@ -23,6 +23,10 @@ public class UsuarioController {
         return usuarioService.ListarUsuarios();
     }
 
+    public List<UsuarioDTO> buscarUsuariosPorNome(String nome) {
+        return usuarioService.buscarPorNome(nome);
+    }
+
     @PostMapping
     public void CadastrarUsuario(@RequestBody UsuarioDTO usuarioDTO) {
         usuarioService.CadastrarUsuario(usuarioDTO);
